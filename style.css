@@ -1,0 +1,98 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+}
+
+.progress {
+  height: 8px;
+  background: #334155;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #22c55e;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#timer {
+  text-align: right;
+  color: #94a3b8;
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+}
+
+.correct {
+  background: #16a34a !important;
+}
+
+.wrong {
+  background: #dc2626 !important;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.light-mode {
+  background: #f1f5f9;
+  color: black;
+}
+
+.light-mode .container {
+  background: white;
+  color: black;
+}
+
+#leaderboard p {
+  background: #334155;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
