@@ -27,7 +27,7 @@ An interactive and modern quiz platform with AI-like behavior, real-time feedbac
 
 ## 🌐 Live Demo
 
-(Add your Netlify link here)
+https://ai-smart-quiz-app.vercel.app
 
 ---
 
