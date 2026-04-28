@@ -1,2 +1,37 @@
-# AI-Smart-Quiz-App
-AI-powered quiz app with API, leaderboard, and modern UI
+# 🧠 AI Smart Quiz App
+
+An interactive and modern quiz platform with AI-like behavior, real-time feedback, and leaderboard system.
+
+---
+
+## 🚀 Features
+
+* Dynamic quiz using Open Trivia API
+* Timer-based questions
+* Difficulty & category selection
+* AI-like performance feedback
+* Leaderboard using localStorage
+* Dark/Light mode
+* Sound effects & animations
+
+---
+
+## 🛠️ Tech Stack
+
+* HTML
+* CSS
+* JavaScript
+* Open Trivia DB API
+
+---
+
+## 🌐 Live Demo
+
+(Add your Netlify link here)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
